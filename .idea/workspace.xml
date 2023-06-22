@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2e21cf5c-cb10-4cf7-a0e9-6dd06a5bd55b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts-monowallet-fullstack.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/usr/local/Cellar/php/8.2.3/bin/php" />
+  <component name="ProjectId" id="2RRqG3ygDEJdZpdwCg4UDx98hQu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "javascript.nodejs.core.library.configured.version": "20.3.0",
+    "javascript.nodejs.core.library.typings.version": "20.3.0",
+    "js.last.introduce.type": "CONST",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/rz/Documents/git-items/ts-monowallet-fullstack/node_modules/prettier",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "settings.typescriptcompiler",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Node.js.server/main.ts">
+    <configuration name="TypeScript" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/.nvm/versions/node/v20.3.0/bin/node" node-parameters="-r reflect-metadata -r source-map-support/register" working-dir="$PROJECT_DIR$">
+      <method v="2">
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="esbuild.dist.mjs" run_configuration_type="NodeJSConfigurationType" />
+      </method>
+    </configuration>
+    <configuration name="esbuild.dist.mjs" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/.nvm/versions/node/v20.3.0/bin/node" nameIsGenerated="true" node-parameters="-r reflect-metadata -r source-map-support/register" path-to-js-file="bin/esbuild.dist.mjs" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="server/config/decorators/config.decorator.ts" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/.nvm/versions/node/v20.3.0/bin/node" node-parameters="-r reflect-metadata -r source-map-support/register" path-to-js-file="dist/server/config/decorators/config.decorator.js" working-dir="$PROJECT_DIR$">
+      <method v="2">
+        <option name="RunConfigurationTask" enabled="false" run_configuration_name="esbuild.dist.mjs" run_configuration_type="NodeJSConfigurationType" />
+      </method>
+    </configuration>
+    <configuration name="server/main.ts" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/.nvm/versions/node/v20.3.0/bin/node" node-parameters="-r reflect-metadata -r source-map-support/register" path-to-js-file="dist/server/main.js" working-dir="$PROJECT_DIR$">
+      <method v="2">
+        <option name="RunConfigurationTask" enabled="false" run_configuration_name="esbuild.dist.mjs" run_configuration_type="NodeJSConfigurationType" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.TypeScript" />
+      <item itemvalue="Node.js.server/main.ts" />
+      <item itemvalue="Node.js.server/config/decorators/config.decorator.ts" />
+      <item itemvalue="Node.js.esbuild.dist.mjs" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e21cf5c-cb10-4cf7-a0e9-6dd06a5bd55b" name="Changes" comment="" />
+      <created>1687223143115</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687223143115</updated>
+      <workItem from="1687223144386" duration="1966000" />
+      <workItem from="1687404204531" duration="11338000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/logger/logger.service.ts</url>
+          <line>19</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/config/config.module.ts</url>
+          <line>28</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

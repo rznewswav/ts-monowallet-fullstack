@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+num_of_args=$#
+
+npm run build:server:dev
+
+if [ "$num_of_args" -eq 0 ]
+then
+  echo "ERROR:: Not enough arguments. Specify file to run." >&2
+  echo "ERROR:: eg ($0 server/main.ts)" >&2
+  exit 1
+fi
+
+file="$1"
+outfile="dist/${file//.ts/.js}"
+
+shift
+# shellcheck disable=SC2086
+node -r reflect-metadata -r source-map-support/register "$outfile" $*

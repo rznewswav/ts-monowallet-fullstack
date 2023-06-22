@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+num_of_args=$#
+
+npm run build:server:dev
+
+if [ "$num_of_args" -eq 0 ]
+then
+  node --test "dist"
+else
+  substitute() {
+    file="$1"
+    outfile="dist/${file//.ts/.js}"
+    echo "$outfile"
+  }
+
+  export -f substitute
+  outfiles=$([ $# != 0 ] && printf "%s\n" "$@" | xargs -I '{}' bash -c "substitute {}")
+  outfiles=$(echo "$outfiles" | tr '\n' ' ')
+  # shellcheck disable=SC2086
+  node -r reflect-metadata -r source-map-support/register --test $outfiles
+fi

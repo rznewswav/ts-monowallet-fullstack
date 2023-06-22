@@ -1,0 +1,57 @@
+{
+  "name": "ts-monowallet-fullstack",
+  "packageManager": "pnpm@8.6.3",
+  "version": "1.0.0",
+  "scripts": {
+    "build:server": "node bin/esbuild.dist.mjs",
+    "build:server:dev": "node bin/esbuild.dev.mjs"
+  },
+  "dependencies": {
+    "@nestjs/common": "^9.1.4",
+    "@nestjs/config": "^2.2.0",
+    "@nestjs/core": "^9.1.4",
+    "@nestjs/event-emitter": "^1.3.1",
+    "@nestjs/terminus": "^9.1.2",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "hyper-express": "^6.7.1",
+    "node-match-path": "^0.6.3",
+    "reflect-metadata": "^0.1.13",
+    "source-map-support": "^0.5.21",
+    "typeorm": "^0.3.15",
+    "winston": "^3.9.0"
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "@types/cors": "^2.8.13",
+    "@types/jest": "^29.5.2",
+    "@types/node": "^20.3.1",
+    "@types/react": "^18.2.13",
+    "@types/react-dom": "^18.2.6",
+    "craco-esbuild": "^0.5.2",
+    "esbuild": "^0.18.5",
+    "esbuild-plugin-tsc": "^0.4.0",
+    "glob": "^10.3.0",
+    "million": "^2.4.6",
+    "prettier": "^2.3.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "reactstrap": "^9.2.0",
+    "typescript": "^5.1.3",
+    "web-vitals": "^3.3.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
